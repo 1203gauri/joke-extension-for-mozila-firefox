@@ -1,0 +1,20 @@
+{
+    "name":"joke",
+    "description":"a joke extension changing with every refresh",
+    "version":"0.01",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"script.js"
+    },
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"logo.png"
+    },
+    
+    "icons":{
+        "128":"logo.png"
+
+    },
+    "permissions":["activeTab"]
+
+}
